@@ -19,18 +19,18 @@ def iniciar():
     
     with open (CAMINHO_FILES, "r") as weather_file:
         configuracao = json.load(weather_file)
-        weather = configuracao["weather"]
+        weather = configuracao['previsoes']
         
         weather_file.close()
         
         
-        with open (CAMINHO_CONFIG, "r") as config_file:
-            config = json.load(config_file)
+    with open (CAMINHO_CONFIG, "r") as config_file:
+        config = json.load(config_file)
 
-            nome_assistente = configuracao["nome"]
-            acoes = configuracao ["acoes"]
+        nome_assistente = config["nome"]
+        acoes = config["acoes"]
         
-            config_file.close()
+        config_file.close()
 
 def escutar_comando():
     global reconhecedor
