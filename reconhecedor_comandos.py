@@ -5,7 +5,8 @@ import json
 
 IDIOMA_CORPUS = "portuguese"
 IDIOMA_FALA = "pt-BR"
-CAMINHO_CONFIGURACAO = "config.json"
+CAMINHO_FILES = "weather.json"
+CAMINHO_CONFIG = "config.json"
 
 def iniciar():
     global reconhecedor
@@ -16,13 +17,20 @@ def iniciar():
     reconhecedor = sr.Recognizer()
     palavras_de_parada = set(corpus.stopwords.words(IDIOMA_CORPUS))
     
-    with open (CAMINHO_CONFIGURACAO, "r") as arquivo_configuracao:
-        configuracao = json.load(arquivo_configuracao)
+    with open (CAMINHO_FILES, "r") as weather_file:
+        configuracao = json.load(weather_file)
+        weather = configuracao["weather"]
         
-        nome_assistente = configuracao["nome"]
-        acoes = configuracao ["acoes"]
+        weather_file.close()
         
-        arquivo_configuracao.close()
+        
+        with open (CAMINHO_CONFIG, "r") as config_file:
+            config = json.load(config_file)
+
+            nome_assistente = configuracao["nome"]
+            acoes = configuracao ["acoes"]
+        
+            config_file.close()
 
 def escutar_comando():
     global reconhecedor
