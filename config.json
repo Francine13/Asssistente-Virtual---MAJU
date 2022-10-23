@@ -2,35 +2,16 @@
     "nome":"maju",
     "acoes": [
         {
-            "nome":"ligar",
+            "nome":"previsão",
             "objetos": [
-                "lâmpada",
-                "televisão",
-                "ar-condicionado"
+                "amanhã",
+                "momento"
             ]
         },
         {
-            "nome":"desligar",
+            "nome":"porcentagem",
             "objetos": [
-                "lâmpada",
-                "televisão",
-                "ar-condicionado"
-            ]
-        },
-        {
-            "nome":"aumentar",
-            "objetos": [
-                "luminosidade",
-                "volume",
-                "temperatura"
-            ]
-        },
-        {
-            "nome":"diminuir",
-            "objetos": [
-                "luminosidade",
-                "volume",
-                "temperatura"
+                "dia"
             ]
         }
     ]

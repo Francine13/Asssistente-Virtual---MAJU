@@ -1,0 +1,110 @@
+{
+    "previsoes":[
+
+        {
+            "cidade":"Vitoria da conquista - BA",
+            "agora":{
+             "data_hora":"23\/10\/2022 - 18:11",
+             "descricao":"Nublado",
+             "temperatura":"23°",
+             "humidade":"81%",
+             "vento_velocidade":"13 km\/h",
+             "vento_direcao":"SE",
+             "indice_UV": "baixo",
+             "nascer_do_sol":"5:11 am",
+             "por_do_sol":"5:43 pm"
+            },
+            "amanha":{
+                "data_hora":"24\/10\/2022 - 13:13",
+                "descricao":"Pancadas de chuva",
+                "temperatura":"22°",
+                "humidade":"81%",
+                "vento_velocidade":"9 km\/h",
+                "vento_direcao":"SE",
+                "indice_UV": "Medio",
+                "nascer_do_sol":"5:45 am",
+                "por_do_sol":"5:10 pm"
+               },
+               "porcentagem":{
+                "data_hora":"23\/10\/2022 - 18:16",
+                "descricao":"Nublado",
+                "temperatura":"22°",
+                "humidade":"81%",
+                "nebulosidade":"90%",
+                "quantidade_de_chuva":"0 cm",
+                "vento_velocidade":"13 km\/h",
+                "vento_direcao":"SE"
+               }
+        },
+        {
+        "cidade":"Tanhaçu - BA",
+            "agora":{
+             "data_hora":"23\/10\/2022 - 17:41",
+             "descricao":"Encoberto",
+             "temperatura":"32°",
+             "humidade":"40%",
+             "vento_velocidade":"11 km\/h",
+             "vento_direcao":"SE",
+             "indice_UV": "baixo",
+             "nascer_do_sol":"5:14 am",
+             "por_do_sol":"5:44 pm"
+            },
+            "amanha":{
+                "data_hora":"24\/10\/2022 - 15:24",
+                "descricao":"Muito Nublado",
+                "temperatura":"31°",
+                "humidade":"57%",
+                "vento_velocidade":"11 km\/h",
+                "vento_direcao":"SE",
+                "indice_UV": "baixo",
+                "nascer_do_sol":"5:32 am",
+                "por_do_sol":"5:21 pm"
+               },
+               "porcentagem":{
+                "data_hora":"23\/10\/2022 - 19:59",
+                "descricao":"Pancadas de chuva",
+                "temperatura":"25°",
+                "humidade":"86%",
+                "nebulosidade":"94%",
+                "quantidade_de_chuva":"1.2 mm",
+                "vento_velocidade":"10 km\/h",
+                "vento_direcao":"SE"
+               }
+        },
+        {
+            "cidade":"Brumado - BA",
+                "agora":{
+                 "data_hora":"23\/10\/2022 - 17:55",
+                 "descricao":"Nublado",
+                 "temperatura":"30°",
+                 "humidade":"47%",
+                 "vento_velocidade":"10 km\/h",
+                 "vento_direcao":"SE",
+                 "indice_UV":"baixo",
+                 "nascer_do_sol":"5:15 am",
+                 "por_do_sol":"5:46 pm"
+                },
+                "amanha":{
+                    "data_hora":"24\/10\/2022 - 12:23",
+                    "descricao":"Encoberto",
+                    "temperatura":"28°",
+                    "humidade":"62%",
+                    "vento_velocidade":"13 km\/h",
+                    "vento_direcao":"SE",
+                    "indice_UV":"alto",
+                    "nascer_do_sol":"5:32 am",
+                    "por_do_sol":"5:25 pm"
+                   },
+                   "porcentagem":{
+                    "data_hora":"23\/10\/2022 - 18:07",
+                    "descricao":"Nublado",
+                    "temperatura":"30°",
+                    "humidade":"47%",
+                    "nebulosidade":"82%",
+                    "quantidade_de_chuva":"0 cm",
+                    "vento_velocidade":"9 km\/h",
+                    "vento_direcao":"SE"
+                   }
+            }
+    ]
+}

@@ -50,6 +50,8 @@ def eliminar_palavras_de_parada(tokens):
     for token in tokens:
         if token not in palavras_de_parada:
             tokens_filtrados.append(token)
+    
+    return tokens_filtrados
 
 def tokenizar_comando(comando):
     global nome_assistente
@@ -61,10 +63,10 @@ def tokenizar_comando(comando):
     if tokens:
         tokens = eliminar_palavras_de_parada(tokens)
         
-        if len(tokens) >= 3:
+        if len (tokens) >= 3:
             if nome_assistente == tokens[0].lower():
-                acao = tokens[1].lower()
-                objeto = tokens[2].lower()            
+                acao = tokens[2].lower()
+                objeto = tokens[len(tokens) - 1].lower()            
     
     return acao, objeto
 
