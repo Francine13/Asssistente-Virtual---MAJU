@@ -6,8 +6,7 @@
 * Maju qual a previsão do tempo amanhã
 * Maju qual a porcentagem de chuva no dia
 
-      # clonar o repositório
-      $ git clone https://github.com/Francine13/Asssistente-Virtual-MAJU.git
+      
       
       # Entrar na pasta do projeto
       $ cd Assistente-Virtual-MAJU
